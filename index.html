@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotação Dólar/Real ou Real/Dólar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>"Cotação Dólar/Real ou Real/Dólar"</h1>
+    <div>
+        <label for="moeda">Selecione a moeda:</label>
+        <select id="moeda">
+            <option value="real">Real (BRL)</option>
+            <option value="dolar">Dólar (USD)</option>
+        </select>
+    </div>
+    <div>
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" placeholder="Digite o valor">
+    </div>
+    <button onclick="converter()">Converter</button>
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+</html>
